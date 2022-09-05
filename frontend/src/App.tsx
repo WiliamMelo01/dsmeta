@@ -1,9 +1,9 @@
-
+import NotificationButt from './components/NotificationButton'
 
 function App() {
   return (
     <>
-
+      <NotificationButt></NotificationButt>
     </>
   )
 }
