@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../assets/img/logo.svg'
 import './styles.css'
 
-function Heder() {
+function Hedaer() {
     return (
         <header>
             <div className="dsmeta-logo-container">
@@ -17,4 +17,4 @@ function Heder() {
     )
 }
 
-export default Heder
+export default Hedaer

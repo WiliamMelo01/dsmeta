@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
-import './styles.css'
+import React, { useState, useEffect } from 'react'
 
 import NotificationButton from '../NotificationButton'
-
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import axios from 'axios'
+
+import './styles.css'
 
 
 function SalesCard() {
@@ -13,8 +14,13 @@ function SalesCard() {
     const max = new Date();
 
     const [minDate, setminDate] = useState(min)
-
     const [maxDate, setMaxDate] = useState(max)
+
+    useEffect( ()=>{
+        axios.get("https://wiliam-melo-dsmeta-springreact.herokuapp.com/sales").then(response => {
+            console.log(response.data)
+        })
+    },[])
 
     return (
         <div className="dsmeta-card">
