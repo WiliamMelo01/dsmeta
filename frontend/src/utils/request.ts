@@ -1,0 +1,1 @@
+export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "https://wiliam-melo-dsmeta-springreact.herokuapp.com";
