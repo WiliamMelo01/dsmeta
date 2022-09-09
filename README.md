@@ -6,4 +6,4 @@ Projeto desenvolvido na Semana Spring React
   - <a href="https://wiliam-melo-dsmeta-springreact.herokuapp.com/sales" target="_blank">Link da API</a>
 
 - FRONTEND criado com REACT.JS + TYPESCRIPT
-    - <a href="  - <a href="https://wiliam-melo-dsmeta-springreact.herokuapp.com/sales" target="_blank">Link da API</a>" target="_blank">Link da do Projeto</a>
+    - <a href="https://wiliam-melo-dsmeta.netlify.app" target="_blank">Link do Projeto</a>
